@@ -177,8 +177,8 @@ async function fetchJSON(url, options = {}) {
      (function (){
        var msalConfig = {
 	   auth: {
-	     clientId: 'bd3c3fed-3439-4340-bde0-f9798b55ca73',
-	     authority: 'https://login.microsoftonline.com/a2d50e3d-6226-4421-8b3a-0f2a57e22bae'
+	     clientId: 'b4bf3e68-00da-4582-84a6-ad61ec6d0087',
+	     authority: 'https://login.microsoftonline.com/1e32f77b-a36c-4003-9d9c-1f36fa39f876'
 	   },
 	   cache: {
 	     cacheLocation: 'localStorage',
@@ -193,7 +193,7 @@ async function fetchJSON(url, options = {}) {
 (async function main() {
 
     // Add your BOT ID below 
-    var theURL = "https://defaulta2d50e3d622644218b3a0f2a57e22b.ae.environment.api.powerplatform.com/powervirtualagents/botsbyschema/crc6a_copilot1/directline/token?api-version=2022-03-01-preview" // you can find the token URL via the mobile app channel configuration
+    var theURL = "https://cec1a32e7a34e0aa946adbdd3b6ad9.01.environment.api.powerplatform.com/powervirtualagents/botsbyschema/bur_bot/directline/token?api-version=2022-03-01-preview" // you can find the token URL via the mobile app channel configuration
 
 	var userId = clientApplication.account?.accountIdentifier != null ? 
 					("You-customized-prefix" + clientApplication.account.accountIdentifier).substr(0, 64) 
